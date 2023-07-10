@@ -1,0 +1,187 @@
+Microsoft Windows [Version 10.0.22000.2057]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user>cd/
+
+C:\>cd desktop
+The system cannot find the path specified.
+
+C:\>cd webenterprice
+
+C:\WebEnterprice>mkdir node_js_crud_operation
+
+C:\WebEnterprice>cd node_js_crud_operation
+
+C:\WebEnterprice\node_js_crud_operation>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (node_js_crud_operation)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: kennedy Amahaya
+license: (ISC)
+About to write to C:\WebEnterprice\node_js_crud_operation\package.json:
+
+{
+  "name": "node_js_crud_operation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kennedy Amahaya",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+npm notice
+npm notice New minor version of npm available! 9.6.7 -> 9.8.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.8.0
+npm notice Run npm install -g npm@9.8.0 to update!
+npm notice
+
+C:\WebEnterprice\node_js_crud_operation>npm install ejs
+
+added 16 packages, and audited 17 packages in 4s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\WebEnterprice\node_js_crud_operation>npm install express --save
+
+added 58 packages, and audited 75 packages in 6s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\WebEnterprice\node_js_crud_operation>npm install express-flash --save
+
+added 2 packages, and audited 77 packages in 5s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\WebEnterprice\node_js_crud_operation>
+C:\WebEnterprice\node_js_crud_operation>npm install express-session --save
+
+added 5 packages, and audited 82 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\WebEnterprice\node_js_crud_operation>npm install method-override --save
+
+added 2 packages, and audited 84 packages in 4s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\WebEnterprice\node_js_crud_operation>npm install mysql --save
+
+added 12 packages, and audited 96 packages in 3s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\WebEnterprice\node_js_crud_operation>mkdir lib
+
+C:\WebEnterprice\node_js_crud_operation>cd lib
+
+C:\WebEnterprice\node_js_crud_operation\lib>type NUL > db.js
+
+C:\WebEnterprice\node_js_crud_operation\lib>cd ../
+
+C:\WebEnterprice\node_js_crud_operation>mkdir routes
+
+C:\WebEnterprice\node_js_crud_operation>cd routes
+
+C:\WebEnterprice\node_js_crud_operation\routes>type NUL>users.js
+
+C:\WebEnterprice\node_js_crud_operation\routes>cd ../
+
+C:\WebEnterprice\node_js_crud_operation>mkdir views
+
+C:\WebEnterprice\node_js_crud_operation>cd views
+
+C:\WebEnterprice\node_js_crud_operation\views>mkdir users
+
+C:\WebEnterprice\node_js_crud_operation\views>cd users
+
+C:\WebEnterprice\node_js_crud_operation\views\users>type NUL>index.ejs
+
+C:\WebEnterprice\node_js_crud_operation\views\users>type NUL>add.ejs
+
+C:\WebEnterprice\node_js_crud_operation\views\users>type NUL>edit.ejs
+
+C:\WebEnterprice\node_js_crud_operation\views\users>cd ../
+
+C:\WebEnterprice\node_js_crud_operation\views>type NUL>index.js
+
+C:\WebEnterprice\node_js_crud_operation\views>cd ../
+
+C:\WebEnterprice\node_js_crud_operation>mkdir doc
+
+C:\WebEnterprice\node_js_crud_operation>cd doc
+
+C:\WebEnterprice\node_js_crud_operation\doc>type NUL>config.txt
+
+C:\WebEnterprice\node_js_crud_operation\doc>cd ../
+
+C:\WebEnterprice\node_js_crud_operation>cd views/users
+
+C:\WebEnterprice\node_js_crud_operation\views\users>type NUL>users.ejs
+
+C:\WebEnterprice\node_js_crud_operation\views\users>cd ../
+
+C:\WebEnterprice\node_js_crud_operation\views>mkdir pages
+
+C:\WebEnterprice\node_js_crud_operation\views>mkdir logins
+
+C:\WebEnterprice\node_js_crud_operation\views>cd logins
+
+C:\WebEnterprice\node_js_crud_operation\views\logins>type NUL>login.ejs
+
+C:\WebEnterprice\node_js_crud_operation\views\logins>type NUL>recover.ejs
+
+C:\WebEnterprice\node_js_crud_operation\views\logins>../
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WebEnterprice\node_js_crud_operation\views\logins>cd ../
+
+C:\WebEnterprice\node_js_crud_operation\views>cd ../
+
+C:\WebEnterprice\node_js_crud_operation>cd routes
+
+C:\WebEnterprice\node_js_crud_operation\routes>type NUL>login.js
+
+C:\WebEnterprice\node_js_crud_operation\routes>
+
+
+url - https://techsolutionstuff.com/post/node-js-express-crud-example-with-mysql
